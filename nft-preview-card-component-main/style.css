@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.eye {
+    background-color: hsl(178, 100%, 50%);
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 35%;
+}
+
+.image:hover {
+    opacity: 0.2;
+}
+
+.img {
+    background-color: hsl(178, 100%, 50%);
+    width: 100%;
+    border-radius: 10px;
+    height: 301px;
+}
+
+h1 {
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.3;
+}
+
+p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-div {
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    margin-right: 10px;
+}
+
+.paragraph {
+    color: hsl(178, 100%, 50%);
+}
+
+.jule {
+    margin-left: 20px;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+    margin-left: 5px;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+@media screen and (min-width:1020px) {
+    .main-div {
+        width: min-content;
+        margin: auto;
+    }
+    .image {
+        width: 280px;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main-div {
+        width: min-content;
+        margin: auto;
+    }
+    .image {
+        width: 280px;
+        height: 100%;
+    }
+}
