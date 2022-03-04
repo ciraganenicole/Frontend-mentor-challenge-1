@@ -14,7 +14,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,6 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
+![capt 1](https://user-images.githubusercontent.com/72297212/156655981-078c08f6-cc9d-49ae-9938-bb4b8ba935ec.png)
 
 
 ### Links
